@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacts</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Curriculum Vitae</div>
+        <nav class="nav-links">
+            <a href="kaskas.html">Home</a>
+            <a href="kashobbies.html">Hobbies</a>
+            <a href="kasabout.html">About</a>
+            <a href="kascontacts.html">Contact</a>
+        </nav>
+    </header>
+    <body>
+    
+        <main class="contact-section">
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="contacts-header-badge">Contacts</div>
+                
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="input-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="2" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-sent">SENT</button>
+                </form>
+
+                <div class="social-media-block">
+                    <h4>Follow us on social media:</h4>
+                    <div class="social-icons">
+                        <a href="#" class="icon-fb"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon-ig"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="icon-yt"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="icon-tt"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <div class="map-box">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=San%20Jose%20del%20Monte&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="more-connect-block">
+                    <h4>More ways to connect!</h4>
+                    <p class="description">discrpition...</p>
+                    
+                    <div class="connect-icons">
+                        <a href="tel:#" class="circle-icon" title="Call Us"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:#" class="circle-icon" title="Email Us"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="circle-icon" title="Location"><i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</body>
+</html>
